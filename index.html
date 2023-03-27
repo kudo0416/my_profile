@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="プロフィールサイトです">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- ここからサイトタイトル -->
+        <div class="header-container">
+            <h1 class="site-title">MyProfile</h1>
+            <!-- ここまでサイトタイトル -->
+            <nav>
+                <!-- モバイル用ナビゲーション開閉ボタン -->
+                <div class="navbtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- ここまでボタン -->
+                <!-- ここからナビゲーションメニュー -->
+                <ul class="header-navmenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                </ul>
+                <!-- ここまでナビゲーションメニュー -->
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- ここからメイン画像 -->
+        <div class="main-visual-container">
+            <img src="images/maintotoro.png" alt="メイン画像">
+        </div>
+        <!-- ここまでメイン画像 -->
+        <!-- ここからAbout -->
+        <div id="about" class="about-container">
+            <h2>About</h2>
+            <div class="profile-box">
+                <div class="profile-img">
+                    <img src="images/kudou.png" alt="">
+                </div>
+                <div class="profile-text">
+                    <h3>Akinobu Kudou</h3>
+                    <ul>
+                        <li>・ 25歳 宮城県大崎市出身</li>
+                        <li>・ 茨城県の神社で奉仕する神職</li>
+                        <li>・ トトロが大好き</li>
+                        <li>・ 最近は読書にはまっている</li>
+                        <li>・ The Blue Heartsが大好き</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- ここまでAbout -->
+        <!-- ここからWorks -->
+        <div id="works" class="works-container">
+            <h2>Works</h2>
+            <div class="product-box">
+                <div class="product-item">
+                    <div class="works-img"><img src="images/totoro.png" alt=""></div>
+                    <div class="works-text">2歳の誕生日プレゼントでもらったトトロ</div>
+                </div>
+                <div class="product-item">
+                    <div class="works-img"><img src="images/book.png" alt=""></div>
+                    <div class="works-text">愛読書の『神様のカルテ』</div>
+                </div>
+                <div class="product-item">
+                    <div class="works-img"><img src="images/blue_hearts.png" alt=""></div>
+                    <div class="works-text">DVD『ブルーハーツが聴こえない』のジャケット</div>
+                </div>
+            </div>
+        </div>
+        <!-- ここまでWorks -->
+    </main>
+    <footer>
+        <div class="footer-continer">
+            <!-- ここからコピーライト -->
+            <p class="copyright">&copy; MyProfile. All rights reserved.</p>
+            <!-- ここまでコピーライト -->
+        </div>
+    </footer>
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
